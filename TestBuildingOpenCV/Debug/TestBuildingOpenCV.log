@@ -1,0 +1,30 @@
+﻿Построение начато 24.10.2012 19:37:52.
+     1>Проект "C:\Users\user\Documents\Visual Studio 2010\Projects\TestBuildingOpenCV\TestBuildingOpenCV\TestBuildingOpenCV.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\TestBuildingOpenCV.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Robot\BlobLib /ID:\work\lib\cv\opencv\build\include /ID:\work\lib\cv\opencv\build\include\opencv /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TestBuildingOpenCV.cpp
+         TestBuildingOpenCV.cpp
+     1>d:\work\lib\cv\opencv\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': объявлен deprecate
+                 d:\work\lib\cv\opencv\build\include\opencv2\flann\flann.hpp(278): см. ссылку на создание экземпляров класса шаблон при компиляции "cv::flann::Index_<T>"
+       ManifestResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\Visual Studio 2010\Projects\TestBuildingOpenCV\Debug\TestBuildingOpenCV.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Robot\BlobLib /LIBPATH:D:\work\lib\cv\opencv\build\x86\vc10\lib cvblobslib.lib opencv_highgui231d.lib opencv_core231d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TestBuildingOpenCV.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\user\Documents\Visual Studio 2010\Projects\TestBuildingOpenCV\Debug\TestBuildingOpenCV.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Documents\Visual Studio 2010\Projects\TestBuildingOpenCV\Debug\TestBuildingOpenCV.lib" /MACHINE:X86 Debug\TestBuildingOpenCV.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\TestBuildingOpenCV.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\TestBuildingOpenCV.exe.embed.manifest" /manifest Debug\TestBuildingOpenCV.exe.intermediate.manifest
+         Для всех выходных данных обновления не требуется.
+       LinkEmbedManifest:
+         Для всех выходных данных обновления не требуется.
+         TestBuildingOpenCV.vcxproj -> C:\Users\user\Documents\Visual Studio 2010\Projects\TestBuildingOpenCV\Debug\TestBuildingOpenCV.exe
+       FinalizeBuildStatus:
+         Файл "Debug\TestBuildingOpenCV.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\TestBuildingOpenCV.lastbuildstate".
+     1>Построение проекта "C:\Users\user\Documents\Visual Studio 2010\Projects\TestBuildingOpenCV\TestBuildingOpenCV\TestBuildingOpenCV.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:04.98
